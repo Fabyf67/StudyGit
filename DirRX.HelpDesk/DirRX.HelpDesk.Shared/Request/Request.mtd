@@ -27,7 +27,7 @@
         {
           "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
           "NameGuid": "e895d92e-2be5-4b78-bf9e-1e28cc5c5844",
-          "Name": "ControlGroup",
+          "Name": "BaseGroup",
           "ColumnDefinitions": [
             {
               "Percentage": 50.0
@@ -98,7 +98,7 @@
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.TextEditorToTextBinder",
           "ParentGuid": "e895d92e-2be5-4b78-bf9e-1e28cc5c5844",
           "PropertyGuid": "3fb8cabf-a132-4223-9778-ee5b1c103c81",
-          "RowNumber": 3,
+          "RowNumber": 4,
           "RowSpan": 1,
           "Settings": [
             {
@@ -110,6 +110,16 @@
               "Value": true
             }
           ]
+        },
+        {
+          "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
+          "NameGuid": "28f2eeaf-ce84-48eb-b154-a0ce0df467bf",
+          "Name": "ControlGroup",
+          "ColumnNumber": 0,
+          "ColumnSpan": 2,
+          "ParentGuid": "e895d92e-2be5-4b78-bf9e-1e28cc5c5844",
+          "RowNumber": 3,
+          "RowSpan": 1
         }
       ]
     }
