@@ -27,14 +27,22 @@
         {
           "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
           "NameGuid": "ffd90a25-e991-4b21-a0b2-c69687cd1633",
-          "Name": "ControlGroup"
+          "Name": "ControlGroup",
+          "ColumnDefinitions": [
+            {
+              "Percentage": 50.0
+            },
+            {
+              "Percentage": 50.0
+            }
+          ]
         },
         {
           "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
           "NameGuid": "33b7a894-87ae-43a2-a51c-807e23a677a7",
           "Name": "Name",
           "ColumnNumber": 0,
-          "ColumnSpan": 1,
+          "ColumnSpan": 2,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
           "ParentGuid": "ffd90a25-e991-4b21-a0b2-c69687cd1633",
           "PropertyGuid": "749bf7eb-a948-4e28-862b-efe28518a299",
@@ -78,6 +86,19 @@
           "ParentGuid": "ffd90a25-e991-4b21-a0b2-c69687cd1633",
           "PropertyGuid": "efd9fbdc-4f4d-433a-9f40-8356436eceec",
           "RowNumber": 3,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "94975ce2-2aab-4072-8db8-7a6de6da4893",
+          "Name": "Code",
+          "ColumnNumber": 1,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+          "ParentGuid": "ffd90a25-e991-4b21-a0b2-c69687cd1633",
+          "PropertyGuid": "fcff2b6a-6b21-4977-b311-b8704e086aaf",
+          "RowNumber": 1,
           "RowSpan": 1,
           "Settings": []
         }
@@ -133,6 +154,14 @@
       ],
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
       "PreviousPropertyGuid": "749bf7eb-a948-4e28-862b-efe28518a299"
+    },
+    {
+      "$type": "Sungero.Metadata.IntegerPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "fcff2b6a-6b21-4977-b311-b8704e086aaf",
+      "Name": "Code",
+      "Code": "Code",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+      "PreviousPropertyGuid": "efd9fbdc-4f4d-433a-9f40-8356436eceec"
     }
   ],
   "PublicStructures": [],
