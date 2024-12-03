@@ -79,4 +79,10 @@
   <data name="Property_CreatedDate" xml:space="preserve">
     <value>Дата создания</value>
   </data>
+  <data name="ControlGroup_e895d92e2be54b78bf9e1e28cc5c5844" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+  <data name="Property_Index" xml:space="preserve">
+    <value>Индекс</value>
+  </data>
 </root>
