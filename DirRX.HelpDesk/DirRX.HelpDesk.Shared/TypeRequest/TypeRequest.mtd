@@ -67,6 +67,19 @@
           "RowNumber": 2,
           "RowSpan": 1,
           "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "3ed39f86-44a6-4209-84af-03bc9a477bfc",
+          "Name": "Type",
+          "ColumnNumber": 0,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+          "ParentGuid": "ffd90a25-e991-4b21-a0b2-c69687cd1633",
+          "PropertyGuid": "efd9fbdc-4f4d-433a-9f40-8356436eceec",
+          "RowNumber": 3,
+          "RowSpan": 1,
+          "Settings": []
         }
       ]
     }
@@ -99,6 +112,26 @@
       "Name": "Note",
       "Code": "Note",
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "749bf7eb-a948-4e28-862b-efe28518a299"
+    },
+    {
+      "$type": "Sungero.Metadata.EnumPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "efd9fbdc-4f4d-433a-9f40-8356436eceec",
+      "Name": "Type",
+      "Code": "Type",
+      "DirectValues": [
+        {
+          "NameGuid": "90db85c0-9df3-4ca2-aa7b-1a46df1d39d0",
+          "Name": "access",
+          "Code": "access"
+        },
+        {
+          "NameGuid": "3df4772c-11a3-4ebd-a9b1-9eb68c0d7ae2",
+          "Name": "wish",
+          "Code": "wish"
+        }
+      ],
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
       "PreviousPropertyGuid": "749bf7eb-a948-4e28-862b-efe28518a299"
     }
   ],
