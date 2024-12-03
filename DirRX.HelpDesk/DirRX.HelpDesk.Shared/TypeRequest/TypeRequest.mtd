@@ -50,7 +50,6 @@
           "ColumnSpan": 1,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
           "ParentGuid": "ffd90a25-e991-4b21-a0b2-c69687cd1633",
-          "ParentGuid": "ffd90a25-e991-4b21-a0b2-c69687cd1633",
           "PropertyGuid": "3fdd21e5-2fa6-4b0d-a152-def685aa1ffe",
           "RowNumber": 1,
           "RowSpan": 1,
@@ -65,7 +64,7 @@
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
           "ParentGuid": "ffd90a25-e991-4b21-a0b2-c69687cd1633",
           "PropertyGuid": "2786fff2-e452-4b89-81a7-8f5797d46b7b",
-          "RowNumber": 1,
+          "RowNumber": 2,
           "RowSpan": 1,
           "Settings": []
         }
